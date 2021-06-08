@@ -17,7 +17,6 @@ const span = document.querySelector('#name-output');
 // без формы
 
 input.addEventListener('input', (event) => {
-    console.log(event);
     
     if (input.value === '') {
         return span.textContent = 'незнакомец'

@@ -28,6 +28,3 @@ const makeImgGallery = ({url, alt}) => {
 const makeImgGalleryCollection = images.map(makeImgGallery).join('');
 
 imgGallery.insertAdjacentHTML('beforeend', makeImgGalleryCollection)
-
-console.log(images);
-console.log(makeImgGallery(images[1]));
