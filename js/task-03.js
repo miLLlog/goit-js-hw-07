@@ -21,7 +21,7 @@ const imgGallery = document.querySelector('#gallery')
 const makeImgGallery = ({url, alt}) => {
     return `
     <li>
-    <img src=${url}, alt=${alt}, width="340px">
+    <img src=${url}, alt="${alt}", width="340px">
     </li> `
 }
 
